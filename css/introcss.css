@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+}
+
+.arrow {
+    position: fixed;
+    font-size: 40px;
+    bottom: 50px;
+    right: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.head {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.name {
+    color: rgb(6, 218, 6);
+}
+
+.menu {
+    display: none;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.head a {
+    text-decoration: none;
+    color: rgb(61, 56, 56);
+}
+
+.head a:hover {
+    color: white;
+    background-color: rgb(6, 218, 6);
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.container1 {
+    background-image: url(/intro/images/forest4k.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(41, 41, 253, 0.2);
+    background-blend-mode: screen;
+}
+
+.background .text {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: medium;
+    background-color: rgb(6, 218, 6);
+    border-radius: 5px;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.container2 h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(75, 73, 73);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 50px;
+}
+
+.content p {
+    border-bottom: 2px solid rgb(70, 67, 67);
+    padding-bottom: 50px;
+}
+
+.content .address {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+
+.my {
+    width: 100%;
+    height: 100%;
+}
+
+.relative {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.myImg {
+    width: 100%;
+    height: 100%;
+}
+
+.myIcon {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: rgb(20, 20, 63);
+}
+
+.container3 {
+    background-color: rgb(221, 223, 224);
+    padding-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.education {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    column-gap: 20px;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(20, 20, 63);
+}
+
+.container4 {
+    width: 80%;
+    margin: auto;
+}
+
+.double {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
+.bar {
+    background-color: rgb(184, 180, 180);
+    border: 1px solid rgb(184, 180, 180);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.green {
+    background-color: rgb(6, 218, 6);
+    height: 10px;
+    border-radius: 5px;
+}
+
+.percentage {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    column-gap: 20px;
+}
+
+.number {
+    margin-top: 5px;
+}
+
+.html .green,
+.bs .green {
+    width: 90%;
+}
+
+.css .green,
+.ejs .green,
+.rjs .green,
+.njs .green {
+    width: 85%;
+}
+
+.js .green {
+    width: 97%;
+}
+
+.mdb .green {
+    width: 80%;
+}
+
+.container5 {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.grid img {
+    width: 100%;
+    height: 200px;
+}
+
+.center {
+    grid-area: 1/2/3/3;
+}
+
+.center img {
+    height: 420px;
+}
+
+.container6 {
+    background-color: rgb(210, 216, 219);
+    padding-bottom: 50px;
+}
+
+.content6 {
+    width: 80%;
+    margin: auto;
+}
+
+form input {
+    border: 0;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    column-gap: 5px;
+}
+
+textarea {
+    border: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+.submit {
+    background-color: rgb(6, 218, 6);
+    color: white;
+    padding: 10px;
+}
+
+.end img {
+    width: 100px;
+}
+
+.end h2 {
+    margin-top: 0;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+}
+
+.copy {
+    text-align: center;
+    padding: 30px;
+}
+
+@media(max-width:576px) {
+    .arrow {
+        font-size: 20px;
+        bottom: 30px;
+        right: 20px;
+    }
+    .menu {
+        display: block;
+        margin: auto;
+    }
+    .tab div {
+        margin-bottom: 30px;
+    }
+    .tab {
+        display: none;
+    }
+    .menu:hover .tab {
+        margin-top: 30px;
+        display: block;
+    }
+    .links {
+        display: none;
+    }
+    .container1 {
+        height: 300px;
+    }
+    .background .text {
+        padding-top: 5px;
+    }
+    .text h1 {
+        margin-bottom: 0;
+    }
+    .text h5 {
+        margin-top: 10px;
+    }
+    .my {
+        margin-top: 30px;
+    }
+    .relative {
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+    }
+    .myImg {
+        width: 100%;
+    }
+    .myIcon {
+        padding: 10px 40px;
+    }
+    .content .address {
+        display: block;
+    }
+    .address div {
+        padding-top: 10px;
+    }
+    .box {
+        margin-top: 30px;
+    }
+    .end,
+    .double,
+    .flex,
+    .grid,
+    .education,
+    .content {
+        display: block;
+    }
+    .grid img {
+        margin-top: 20px;
+    }
+    .center img {
+        height: 200px;
+    }
+    .copy {
+        padding: 10px 0;
+    }
+}

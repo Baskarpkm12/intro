@@ -1,0 +1,104 @@
+:root {
+    --green: rgb(44, 214, 44);
+    --blue: rgb(8, 8, 73);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.arrow {
+    font-size: 30px;
+    background-color: var(--green);
+    padding: 5px 10px;
+    margin: 0 20px 30px 0;
+    border-radius: 50%;
+}
+
+.container1 a:hover {
+    background-color: var(--green);
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menubar {
+    display: none;
+}
+
+.container2 .name {
+    padding-top: 100px;
+}
+
+.top {
+    background-color: var(--blue);
+}
+
+.education {
+    background-color: var(--blue);
+}
+
+.submit,
+.progress-bar {
+    background-color: var(--green);
+}
+
+.html,
+.bs {
+    width: 90%;
+}
+
+.js {
+    width: 97%;
+}
+
+.mdb {
+    width: 80%;
+}
+
+.css,
+.njs,
+.rjs,
+.ejs {
+    width: 85%;
+}
+
+textarea {
+    height: 100px;
+}
+
+@media(max-width:576px) {
+    .links {
+        display: none;
+    }
+    .menubar {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .menubar:hover .menu {
+        display: block;
+    }
+    .container2 img {
+        height: 300px;
+    }
+    .container2 .name {
+        padding-top: 30px;
+    }
+    .my {
+        height: 300px;
+        margin-top: 50px;
+    }
+    .centerimage {
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .second {
+        margin-top: 50px;
+    }
+    .copy {
+        margin: 5px !important;
+    }
+}
